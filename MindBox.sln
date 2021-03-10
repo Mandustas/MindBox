@@ -9,6 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBox Console", "MindBox 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBox Library", "MindBox Library\MindBox Library.csproj", "{3D3BFCC3-79E8-4C03-B3D7-2A5214AE5A43}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A5311F00-1C58-48D8-8F75-74F0BE293CDE}"
+	ProjectSection(SolutionItems) = preProject
+		Products.sql = Products.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
