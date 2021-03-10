@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBox Console", "..\MindBox Console\MindBox Console.csproj", "{FF5895D2-5A3F-4627-974F-DC09BAA70539}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBox.Tests", "MindBox.Tests\MindBox.Tests.csproj", "{9644C7EF-FF72-4DA6-BDDE-4AD82F4F4646}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBox Library", "..\MindBox Library\MindBox Library.csproj", "{409E4DAB-6DBF-43B2-B25E-1390546AEE31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBox Console", "MindBox Console\MindBox Console.csproj", "{E58CFE8A-2144-4026-AC55-9ECA7C61B678}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBox.Tests", "MindBox.Tests\MindBox.Tests.csproj", "{9644C7EF-FF72-4DA6-BDDE-4AD82F4F4646}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBox Library", "MindBox Library\MindBox Library.csproj", "{3D3BFCC3-79E8-4C03-B3D7-2A5214AE5A43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FF5895D2-5A3F-4627-974F-DC09BAA70539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF5895D2-5A3F-4627-974F-DC09BAA70539}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF5895D2-5A3F-4627-974F-DC09BAA70539}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF5895D2-5A3F-4627-974F-DC09BAA70539}.Release|Any CPU.Build.0 = Release|Any CPU
-		{409E4DAB-6DBF-43B2-B25E-1390546AEE31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{409E4DAB-6DBF-43B2-B25E-1390546AEE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{409E4DAB-6DBF-43B2-B25E-1390546AEE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{409E4DAB-6DBF-43B2-B25E-1390546AEE31}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9644C7EF-FF72-4DA6-BDDE-4AD82F4F4646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9644C7EF-FF72-4DA6-BDDE-4AD82F4F4646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9644C7EF-FF72-4DA6-BDDE-4AD82F4F4646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9644C7EF-FF72-4DA6-BDDE-4AD82F4F4646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58CFE8A-2144-4026-AC55-9ECA7C61B678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58CFE8A-2144-4026-AC55-9ECA7C61B678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58CFE8A-2144-4026-AC55-9ECA7C61B678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58CFE8A-2144-4026-AC55-9ECA7C61B678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D3BFCC3-79E8-4C03-B3D7-2A5214AE5A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3BFCC3-79E8-4C03-B3D7-2A5214AE5A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3BFCC3-79E8-4C03-B3D7-2A5214AE5A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3BFCC3-79E8-4C03-B3D7-2A5214AE5A43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
